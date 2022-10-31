@@ -1,0 +1,34 @@
+{
+  "name": "ant-design-vue-plus",
+  "version": "1.0.0",
+  "description": "基于Ant design vue组件库的二次封装\"",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "UI",
+    "Components"
+  ],
+  "author": "changyi",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify-json/ic": "1.1.4",
+    "@vitejs/plugin-vue": "3.0.3",
+    "@vitejs/plugin-vue-jsx": "2.0.0",
+    "@vue/test-utils": "2.0.2",
+    "happy-dom": "6.0.4",
+    "unocss": "0.45.6",
+    "vite": "3.0.7",
+    "vitepress": "0.22.4",
+    "vitepress-theme-demoblock": "1.4.2",
+    "vitest": "0.21.1"
+  },
+  "dependencies": {
+    "vue": "3.2.37"
+  }
+}
